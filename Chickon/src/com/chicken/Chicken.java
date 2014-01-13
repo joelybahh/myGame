@@ -16,6 +16,7 @@ import javax.swing.JFrame;
 public class Chicken extends JFrame implements Runnable {
 	
 	private boolean running = false;
+	private boolean isOpen = false;
 	
 	private Image dbImage = null;
 	private Graphics dbgx;
